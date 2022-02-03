@@ -1,7 +1,7 @@
 # JS in the Browser
 We've been writing JavaScript using node.js. In this short session, we take a quick look at how we run JavaScript within the browser to prime us for the next module - building front end applications first with plain JavaScript and then with React.
 
-![JS](./browser.PNG)
+![JS](./browser.png)
 
 ## Including JavaScript with a Web Page
 Like with CSS, we can include our JavaScript directly within our web page:
