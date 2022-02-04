@@ -70,7 +70,11 @@ Remember the Developer Tools? We used it in HTML and CSS to inspect our elements
 
 Open that file and then open your Developer Console - `[Chrome Menu] > More Tools > Developer Tools` and then select the `Console` tab. It should look something like this:
 
-![JS](./console-log.PNG)
+![JS](./console-log-1.PNG)
+
+You can then click on the arrow and expand this to see all the elements of the array and also the object properties:
+
+![JS](./console-log-2.PNG)
 
 You might also notice you can type code in to the Console - this works exactly like the node REPL:
 
