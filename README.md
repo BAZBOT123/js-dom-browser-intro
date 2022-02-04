@@ -3,6 +3,11 @@ We've been writing JavaScript using node.js. In this short session, we take a qu
 
 ![JS](./browser.png)
 
+## Learning Objectives
+* Include JavaScript in an HTML page using a script tag
+* Use the Developer Tools Console to debug JavaScript
+* Explain some of the differences between running JavaScript in the Browser vs Node.
+
 ## Including JavaScript with a Web Page
 Like with CSS, we can include our JavaScript directly within our web page:
 
