@@ -101,6 +101,14 @@ Note that in reality, these functions are really just used for testing and debug
 ### Wait, where do these functions come from?
 These are functions available only within the browser environment. Interestingly, they are actually part of a **global** object called `window` that contains lots of other interesting information about the current browser window. **global** in this context essentially means "accessible from anywhere in our code." 
 
+We can also add our own global variables by attaching them to the `window` object:
+
+```javascript
+window.data = "A global string!"
+```
+
+This would mean `data` was available to any JavaScript running on the page. In general, global variables are considered a bad practice but we use this technique in some exercises for simplicity. As the module progresses, we introduce better ways to handle global data.
+
 As always, you can read the documentation on [MDN](https://developer.mozilla.org/en-US/docs/Web/API/Window).
 
 ## Other Differences
