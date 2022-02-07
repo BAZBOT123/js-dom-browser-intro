@@ -49,7 +49,7 @@ console.log('Hey there!');
 Just like with CSS we will always use a separate file as that is considered best practice.
 
 ## Using the Console 
-Remember the Developer Tools? We used it in HTML and CSS to inspect our elements, modify styles, test responsiveness and much more. The Developer Tools are also a fantastic tool for debugging JavaScript. When we used `console.log` in our node programs, we got messages in our terminal. In the browser, these `console.log` messages will appear in the Developer Tools in the Console tab. What's more, if we log an object or an array we can expand and collapse it's properties dynamically! Try this out:
+Remember the [Developer Tools](https://developer.chrome.com/docs/devtools/)? We used them in HTML and CSS to inspect our elements, modify styles, test responsiveness and much more. The Developer Tools are also a fantastic tool for debugging JavaScript. When we used `console.log` in our node programs, we got messages in our terminal. In the browser, these `console.log` messages will appear in the Developer Tools in the Console tab. What's more, if we log an object or an array we can expand and collapse it's properties dynamically! Try this out:
 
 ```javascript
 <!DOCTYPE html>
@@ -118,7 +118,7 @@ In node, we could do things like read a file from the hard drive - browsers don'
 
 ## Exercise Part 1
 Practice writing JS in the browser with this small exercise:
-* Creating a new javascript file, `index.js` and include it in the `index.html` file using a `script` tag.
+* Create a new javascript file, `index.js` and include it in the `index.html` file using a `script` tag.
 * Inside your index.js file, write code to:
   - Show the user 4 random numbers between 1 and 100 using `alert`
   - Ask them to enter the numbers in the right order using `prompt`
